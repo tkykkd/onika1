@@ -1,0 +1,13 @@
+dist
+file_list.txt
+full_list_new.txt
+index.html
+metadata.json
+node_modules
+package-lock.json
+package.json
+public
+simple_root_list.txt
+src
+tsconfig.json
+vite.config.ts

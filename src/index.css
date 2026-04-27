@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", sans-serif;
+  
+  /* Eddsworld inspired palette */
+  --color-edd: #6E9E44;
+  --color-tom: #3E5E9E;
+  --color-matt: #9E5E9E;
+  --color-tord: #9E3E3E;
+  
+  --color-pop-pink: #FF71A4;
+  --color-cool-black: #1A1A1A;
+  --color-soft-bg: #F8F7FF;
+  --color-deep-blue: #0A192F;
+}
+
+@layer base {
+  body {
+    @apply bg-deep-blue text-white antialiased font-sans;
+  }
+}
+
+/* Custom scrollbar for a cool look */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #E0E0FF;
+  border-radius: 99px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #D0D0FF;
+}
